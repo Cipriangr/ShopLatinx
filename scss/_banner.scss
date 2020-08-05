@@ -1,0 +1,35 @@
+.banner{
+  .row{
+    background-image: url(../images/secondbanner.png);
+    background-repeat: no-repeat;
+    height: 500px;
+    .content{
+      color:white;
+      font-family: Helvetica;
+      padding-left:100px;
+      h2:nth-child(1){
+        font-weight: bold;
+        line-height: 100%;
+        font-size: 56px;
+      }
+      h2:nth-child(2){
+        font-weight: 500;
+        font-family: "FreightDisp Pro";
+        font-style: italic;
+      }
+      p{
+        max-width: 220px;
+        margin-bottom: 5px;
+      }
+      a{
+        color: black;
+        background-color: white;
+        border: solid 1px white;
+        border-radius: 100px;
+        padding: 17px 24px 17px 24px;
+        font-weight: 700;
+      }
+    }
+  }
+}
+

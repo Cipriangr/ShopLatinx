@@ -1,0 +1,91 @@
+footer{
+  #footer-gradient{
+    height: 96px;;
+    background:linear-gradient(180deg, rgba(199, 217, 182, 0.02) 0%, rgba(199, 217, 182, 0.87) 66.67%, #C7D9B6 100%)
+  }
+    
+      .custom-container{
+        background: #C7D9B6;
+    
+        .row .left-column{
+          h3{
+            color: black;
+            font-family: Helvetica;
+            font-style: normal;
+            font-weight: bold;
+            line-height: 24px;
+            font-size: 24px;
+            i{
+              font-weight: 500;
+            }
+          }
+          p:nth-of-type(1){
+            font-family: Helvetica;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 21px;
+          }
+          #emailborder{
+            border: 1px solid #000000;
+            box-sizing: border-box;
+            border-radius: 8px;
+            padding-left:13px;
+            padding-top:17px;
+            padding-bottom: 17px;;
+    
+          }
+          label{
+            input{
+              background: transparent;
+              border: 1px solid #000000;
+              box-sizing: border-box;
+              border-radius: 8px;
+              padding: 17px 55px 17px 20px;
+              font-size:16px;
+              line-height: 19px;
+        
+            }
+            ::placeholder{
+              color: #000000;
+              font-family: Roboto;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 16px;
+              line-height: 19px;
+            }
+            span.icon.arrow{
+              position: absolute;
+              top:4778px;
+              left:865px;
+              padding:10px;
+            }
+          }
+        }
+        .row .column.medium-2{
+          display: flex;
+          justify-content: flex-end;
+        
+         ul{
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          
+    
+    
+          li{
+            margin-bottom: 33px;
+          }
+          li a{
+            color: black;
+            font-family: Helvetica;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+            
+          }
+      }
+    }
+    }
+}

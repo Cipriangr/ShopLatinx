@@ -1,0 +1,47 @@
+.icon{
+    background-image: url("./../images/sprites3.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    &.dropmenu{
+        background-position: -93px -14px;
+        width: 18px;
+        height: 12px;
+    }
+    &.search{
+        background-position: -63px -8px;
+        width: 18px;
+        height: 18px;
+    }
+    &.cart{
+        background-position: -9px -5px;
+        width: 18px;
+        height: 21px;
+    }
+    &.profile{
+        background-position: -38px -16px;
+        width: 16px;
+        height: 16px;
+        margin-top: 3px;
+    }
+    &.arrow{
+        background-position: -125px -12px;
+        width: 14px;
+        height: 14px;
+        position:absolute;
+
+    }    
+}
+
+.icon2{
+background-image: url("./../images/sprites1.png");
+background-repeat: no-repeat;
+display: inline-block;
+    &.insta{
+        background-position: -10px -38px;
+        width: 20px;
+        height: 20px;
+    }
+
+}
+
+
