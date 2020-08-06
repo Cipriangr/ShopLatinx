@@ -35,17 +35,18 @@ footer{
             padding-bottom: 17px;;
     
           }
-          label{
+          .footer-input{
+            display: flex;
+            border: 1px solid #000000;
+            border-radius: 8px;
+            width: 440px;
             input{
+              outline:0;
+              border: 0;
               background: transparent;
-              border: 1px solid #000000;
-              box-sizing: border-box;
-              border-radius: 8px;
-              padding: 17px 55px 17px 20px;
-              font-size:16px;
-              line-height: 19px;
-        
-            }
+              padding: 12px 30px 12px 20px;
+              width: 400px;
+              }
             ::placeholder{
               color: #000000;
               font-family: Roboto;
@@ -54,13 +55,13 @@ footer{
               font-size: 16px;
               line-height: 19px;
             }
-            span.icon.arrow{
-              position: absolute;
-              top:4838px;
-              left:865px;
-              padding:10px;
+            a{
+              display: flex;
+              align-items: center;
+              justify-content: flex-end;
             }
           }
+          
         }
         .row .column.medium-2{
           display: flex;
@@ -92,16 +93,34 @@ footer{
           min-width: 100%;
         }
 
-        .last-footer .row {
-          display: flex;
-          justify-content: center;
+        .last-footer{
+          .social{
+            display: flex;
+            justify-content: center;
             ul{
               display: flex;
               list-style-type: none;
+                li{
+                  margin-right: 20px;
+                }
             }
-            li{
-              margin-right: 20px;
+          }
+          .last-text{
+            display: flex;
+            justify-content: center;
+            ul{
+              display: flex;
+              list-style-type:none;
+              li{
+                margin-right:10px;
+                text-decoration: underline;
+                a{
+                  color: #000000;
+                  font-family: Roboto;
+                }
+              }
             }
+          }
         }
       }
   }

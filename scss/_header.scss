@@ -1,5 +1,5 @@
 header{
-
+  padding-top:15px;
   .navbar {
     .row{
       .left-menu{
@@ -8,9 +8,14 @@ header{
         ul{
         display: flex;
         list-style-type: none;
+        align-items: center;
+        li .icon.search{
+          display: flex;
+        }
         li{
           margin-right: 17px;
         }
+        
         }
       }
       .middle-menu{
@@ -20,18 +25,22 @@ header{
       .right-menu{
         display: flex;
         justify-content: flex-end;
+        align-items:center;
         .top-input{
-          margin-right: 20px;
+          display: flex;
+          margin-right: 30px;
+          border-bottom: 1px solid #000000;
           input{
             border: 0;
-            border-bottom: 1px solid #000000;
+            outline: 0;
             background: transparent;
             padding-bottom:5px;
-          }
+            }
           }
         ul{
         display: flex;
         list-style-type: none;
+        align-items: center;
           li{
             margin-right: 17px;
           }

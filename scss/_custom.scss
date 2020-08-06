@@ -7,16 +7,13 @@ body {
 
   font-family: 'Helvetica Neue', Helvetica;
   
-  
     
-    
-    .second-navbar{
+
+    .second-navbar {
       background-color: #C7D9B6;
       padding-top:20px;
       padding-bottom: 20px;
-      
-    }
-    .second-navbar .row ul{
+    .row ul{
       list-style-type: none;
       margin: 0;
       padding: 0;
@@ -39,7 +36,8 @@ body {
         line-height: 17px;
       }
     }
-}
+  }
+
 
 
 
@@ -90,7 +88,7 @@ body {
   .staff-text{
     display:flex;
     justify-content: center;
-    margin-top:80px;
+    margin-top:20px;
     margin-bottom: 24x;
     h3{
       font-family: Helvetica;
@@ -118,22 +116,6 @@ body {
         margin-top:12px;
       }
   }
-
-
-
-  /* 
-  .button {
-    background-color: #ffffff;
-    border: none;
-    color: black;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    cursor: pointer;
-    max-width: 300px;
-    
-  }
-   */
 
   .home{
       display:flex;
@@ -172,37 +154,6 @@ body {
   }
 
 
-  .staff-text{
-    display:flex;
-    justify-content: center;
-    margin-top:96px;
-    margin-bottom: 24x;
-    h3{
-      font-family: Helvetica;
-      font-weight: bold;
-
-    }
-  }
-
-  .staff 
-  .row{
-      display: flex;
-      align-content: center;
-      justify-content: space-between;
-      margin-bottom: 90px;
-      
-      img{
-        margin-right: 16px;
-      }
-      p{
-        text-align: center;
-        font-family: "Helvatica Neue";
-        font-weight: bold;
-        margin-bottom: 0px;
-        margin-top:12px;
-      }
-    } 
-
   .last-cards
   .row .column{
     display: flex;
@@ -217,7 +168,7 @@ body {
     }
   
   }
-  
+}
 
 
 
