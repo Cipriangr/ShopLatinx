@@ -7,103 +7,40 @@ body {
 
   font-family: 'Helvetica Neue', Helvetica;
   
-  }
-
-
-
-.top-bar{
-  height: 48px;
-  margin-right: 117px;
-  margin-left:117px;
-}
-.topbar-center-logo {
-    background: white;
+  
     
-  }
-  
-.topbar-center-logo .menu {
-  background: white;
-   
-}
-
-.topbar-center-logo-mobile {
-  background: white;
-}
-
-.topbar-center-logo-mobile .menu-icon {
-  vertical-align: text-top;
-}
-  
-  
-  .topbar-center-logo .top-bar-center {
-    -webkit-flex: 1 0 auto;
-        -ms-flex: 1 0 auto;
-            flex: 1 0 auto;
-            padding-left: 150px;
-            padding-right: 150px;
-  }
-
-  .top-bar-right{
-    label{
-      position: absolute;
-      top:8px;
-      right:100px;
-      }
-    input {
-      border: 0;
-      outline: 0;
-      background: transparent;
-      border-bottom: 1px solid black;
-      padding-right: 20px;
-      padding-bottom:5px;
+    
+    .second-navbar{
+      background-color: #C7D9B6;
+      padding-top:20px;
+      padding-bottom: 20px;
+      
     }
-    
-    ul a:nth-child(2){
-      padding:0;
-     span.icon.arrow{
-        position: absolute;
-        left:140px;
-        top: 0px;
+    .second-navbar .row ul{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      max-width: 800;
+      margin-right: auto;
+      margin-left: auto;
+      li{
+        float:left;
+      }
+      li a{
+        display: block;
+        color: #000000;
+        text-align: center;
+        margin-right: 48px;
+        text-decoration: none;
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
       }
     }
-  }
+}
 
-  
-    
-  
-  
- 
-
-  
-  .second-navbar{
-    background-color: #C7D9B6;
-    padding-top:20px;
-    padding-bottom: 20px;
-    
-  }
-  .second-navbar .row ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    max-width: 800;
-    margin-right: auto;
-    margin-left: auto;
-    li{
-      float:left;
-    }
-    li a{
-      display: block;
-      color: #000000;
-      text-align: center;
-      margin-right: 48px;
-      text-decoration: none;
-      font-family: Helvetica;
-      font-style: normal;
-      font-weight: 700;
-      font-size: 14px;
-      line-height: 17px;
-    }
-  }
 
 
   .homebanner {
@@ -226,13 +163,8 @@ body {
       margin-bottom: 180px;
     p{
       font-family: "Helvetica Neue";
-<<<<<<< HEAD
-      font-weight: 900;
-      margin:0px;
-=======
       font-weight: bold;
 
->>>>>>> 34817bbe8f5b57a3fe3b56f78d9c9289e04ff4cb
     }
     a{
       padding-right:10px;
@@ -240,8 +172,6 @@ body {
   }
 
 
-<<<<<<< HEAD
-=======
   .staff-text{
     display:flex;
     justify-content: center;
@@ -289,7 +219,6 @@ body {
   }
   
 
->>>>>>> 34817bbe8f5b57a3fe3b56f78d9c9289e04ff4cb
 
 
   

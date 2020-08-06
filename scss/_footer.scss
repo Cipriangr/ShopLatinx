@@ -56,7 +56,7 @@ footer{
             }
             span.icon.arrow{
               position: absolute;
-              top:4778px;
+              top:4838px;
               left:865px;
               padding:10px;
             }
@@ -84,8 +84,24 @@ footer{
             font-size: 14px;
             line-height: 17px;
             
+             }
           }
+        }
+        hr {
+          border: 1px solid rgba(0, 0, 0, 0.08);
+          min-width: 100%;
+        }
+
+        .last-footer .row {
+          display: flex;
+          justify-content: center;
+            ul{
+              display: flex;
+              list-style-type: none;
+            }
+            li{
+              margin-right: 20px;
+            }
+        }
       }
-    }
-    }
-}
+  }

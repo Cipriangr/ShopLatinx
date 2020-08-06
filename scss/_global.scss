@@ -41,6 +41,21 @@ display: inline-block;
         width: 20px;
         height: 20px;
     }
+    &.pinterest{
+        background-position: -104px -6px ;
+        width: 20px;
+        height: 20px;
+    }
+    &.facebook{
+        background-position: -86px -8px ;
+        width: 10px;
+        height: 18px;
+    }
+    &.twitter{
+        background-position: -57px -10px ;
+        width: 20px;
+        height: 16px;
+    }
 
 }
 
