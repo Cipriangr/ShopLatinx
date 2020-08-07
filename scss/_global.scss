@@ -55,6 +55,16 @@ display: inline-block;
         width: 20px;
         height: 16px;
     }
+    &.mail{
+        background-position: -131px -13px;
+        width: 14px;
+        height: 12px;
+    }
+    &.close{
+        background-position: -155px -11px;
+        width: 14px;
+        height: 14px;
+    }
 
 }
 

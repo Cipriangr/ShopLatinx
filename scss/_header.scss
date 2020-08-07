@@ -30,6 +30,9 @@ header{
           display: flex;
           margin-right: 30px;
           border-bottom: 1px solid #000000;
+          @include breakpoint(small) {
+            display:none;
+          }
           input{
             border: 0;
             outline: 0;
