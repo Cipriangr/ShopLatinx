@@ -1,18 +1,37 @@
+// body {
+//   background-color: red;
+
+//   @include breakpoint(medium) {
+//     background-color: blue;
+//   }
+
+//   @include breakpoint(large) {
+//     background-color: green;
+//   }
+
+//   @include breakpoint(xlarge) {
+//     background-color: pink;
+//   }
+// }
+
 header{
-  padding-top:15px;
   .navbar {
+    margin-top:10px;
+    margin-bottom: 10px;
     .row{
       .left-menu{
         display: flex;
         justify-content: flex-start;
+        padding-right: 0px;
         ul{
         display: flex;
         list-style-type: none;
         align-items: center;
+        margin:0px;
         li .icon.search{
           display: flex;
         }
-        li{
+        li:first-child{
           margin-right: 17px;
         }
         
@@ -26,11 +45,12 @@ header{
         display: flex;
         justify-content: flex-end;
         align-items:center;
+        padding-right: 0px;
         .top-input{
           display: flex;
           margin-right: 30px;
           border-bottom: 1px solid #000000;
-          @include breakpoint(small) {
+          @include breakpoint(small only) {
             display:none;
           }
           input{
@@ -44,8 +64,12 @@ header{
         display: flex;
         list-style-type: none;
         align-items: center;
-          li{
+        margin:0px;
+          li:nth-of-type(1){
             margin-right: 17px;
+          }
+          li:nth-of-type(2){
+            margin-right:5px;
           }
         }
       
@@ -55,33 +79,87 @@ header{
   }
 
 
-  .second-navbar {
+  .second-navbar-mobile{
     background-color: #C7D9B6;
-    padding-top:20px;
-    padding-bottom: 20px;
-    .row ul{
+    padding-top:10px;
+    padding-bottom: 10px;
+    ul{
+      width:100%;
+      margin:0;
+      padding:0;
+      display:flex;
       list-style-type: none;
-      margin: 0;
-      padding: 0;
-      max-width: 800;
-      margin-right: auto;
-      margin-left: auto;
+      align-items:center;
+      justify-content: space-between;
+      // li{
+      //   &:nth-of-type(1){
+      //     a{
+      //       color:red
+      //     }
+      //   }
+      // }
       li{
-        float:left;
+        margin:auto;
       }
       li a{
-        display: block;
         color: #000000;
-        text-align: center;
-        margin-right: 48px;
         text-decoration: none;
         font-family: Helvetica;
         font-style: normal;
-        font-weight: 700;
+        font-weight: 600;
         font-size: 14px;
         line-height: 17px;
       }
+    
+    }
+    .second-navbar-desktop{
+      display:none;
     }
   }
     
+
+  @include breakpoint(medium) {
+    .second-navbar-desktop{
+    background-color: #C7D9B6;
+    padding-top:20px;
+    padding-bottom: 20px;
+      .row {
+        ul{
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          max-width: 800;
+          margin-right: auto;
+          margin-left: auto;
+          display:flex;
+          justify-content: center;
+          // li{
+          //   &:nth-of-type(1){
+          //     a{
+          //       color:red
+          //     }
+          //   }
+          // }
+          li a{
+            display: block;
+            color: #000000;
+            text-align: center;
+            margin-right: 48px;
+            text-decoration: none;
+            font-family: Helvetica;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+          }
+        
+        }
+      }
+    }
+    .second-navbar-mobile{
+      display:none;
+    }
+  }
+    
+
 }
